@@ -22,3 +22,10 @@ logs/
 
 # Local editor settings
 .vscode/terraform/tfplan
+
+# Local editor settings
+.vscode/
+
+# Terraform plan files
+terraform/tfplan
+terraform/*.tfplan
