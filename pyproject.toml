@@ -1,0 +1,24 @@
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "places-for-people-etl"
+version = "0.1.0"
+description = "ETL pipeline for Ducks Unlimited university chapters"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.31,<3.0",
+    "psycopg[binary]>=3.2,<4.0",
+    "cloud-sql-python-connector[psycopg]>=1.0",
+    "google-cloud-storage>=2.18,<4.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

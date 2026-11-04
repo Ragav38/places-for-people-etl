@@ -1,0 +1,24 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.env
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.log
+
+# Local Terraform variables and state
+terraform/terraform.tfvars
+terraform/*.tfstate
+terraform/*.tfstate.*
+
+# Local run artifacts and generated package metadata
+build/
+data/
+logs/
+*.egg-info/
+
+# Local editor settings
+.vscode/
