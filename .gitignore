@@ -21,4 +21,4 @@ logs/
 *.egg-info/
 
 # Local editor settings
-.vscode/
+.vscode/terraform/tfplan
